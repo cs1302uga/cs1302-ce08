@@ -59,22 +59,27 @@ command depends on your present working directory), then please note that contex
    You may need to create the `bin` directory if it does not already exist.
    Write down the commands that you used in the order that you used them.
    
-1. Inspect the source code provided with exercise. For each of the `.java` files, list in your notes
+1. Inspect the source code provided with the exercise. For each of the `.java` files, list in your notes
    the signature of each method explicitly written in that file.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce08-doc` as the name for your symbolic link.
+   Host the documentation on Nike using `cs1302-ce08-doc` as the name for your symbolic link. Write
+   the full URL of your API documentation website in your notes.
    
 1. For each of the classed listed on the API documentation website, list in your notes
-   the signature of each method explicitly written in that file.
+   the signature of each method given in the .java files that are **not** included in the API documentation website.
    
-1. Compare the list of methods that you wrote in the previous step with the list that you wrote
-   when manually inspecting the `.java` files. How do they differ? Why?
+1. Why are some methods in the source code not listed on the API documentation website?
 
 **CHECKPOINT**
 
-1. 
+1. Create a `ShapeDriver.java` program in the `cs1302.driver` package.
+
+1. In the `main` method of `ShapeDriver.java`, you should declare reference type variables of 
+
+| Reference Type | Object Type | Method Access | Variable Access |
+| 
 
 1. Make sure you are in the `cs1302-ce08` directory.
    Use Git to commit your source code changes to your local copy of the exercise repository.
