@@ -1,6 +1,13 @@
 package cs1302.shapes;
 
+/**
+ * A circle is 
+ */
 public class Circle extends Ellipse {
+
+    public Circle(int radius) {
+
+    } // Circle
     
     @Override
     public double getPerimeter() {

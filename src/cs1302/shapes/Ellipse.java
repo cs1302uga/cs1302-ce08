@@ -18,10 +18,33 @@ public class Ellipse extends Shape {
     /** Length of the semi-minor axis. */
     private double b;
 
+    /** 
+     * Constructs an {@link Ellipse} object with the specified semi-major and semi-minor axis
+     * lengths.
+     *
+     * @param a the length of the semi-major axis
+     * @param a the length of the semi-minor axis
+     */
+    public Ellipse(double a, double b) {
+	setName("Ellipse");
+	this.a = a;
+	this.b = b;
+    } // Ellipse
+
+    /** 
+     * Returns the length of the semi-major axis.
+     *
+     * @return the length of the semi-major axis.
+     */
     public double getSemiMajorAxisLength() {
 	return a;
     } // getSemiMajorAxisLength
 
+    /** 
+     * Returns the length of the semi-minor axis.
+     *
+     * @return the length of the semi-minor axis.
+     */
     public double getSemiMinorAxisLength() {
 	return b;
     } // getSemiMinorAxisLength
@@ -32,7 +55,10 @@ public class Ellipse extends Shape {
     } // getArea()
 
     /**
-     * Return an approximation of the perimeter, computed using a Ramanujan approximation.
+     * Return an approximation of the perimeter, computed using a Ramanujan approximation. As this
+     * is an approximation, users of this method should not treat it as an exact perimeter value.
+     * 
+     * @return an approximation of the perimeter
      */
     @Override
     public double getPerimeter() {
@@ -40,7 +66,6 @@ public class Ellipse extends Shape {
 	double p = Math.PI * (a + b) * (1.0 + ((3.0 * h) / (10 + Math.sqrt(4.0 - 3.0 * h))));
 	return p;
     } // getPerimeter
-
     
 } // Ellipse
 

@@ -9,13 +9,14 @@ public abstract class Shape {
     private String name;
 
     /**
-     * Sets the name of the shape.
+     * Sets the name of the shape. This method imposes certain preconditions on the value of 
+     * {@code name}. If a precondition is violated, then an unchecked exception is thrown.
      *
      * @param name the name of the shape
      * @throws NullPointerException if {@code name} is {@code null}
      * @throws IllegalArgumentException if {@code name} is an empty string
      */
-    public void setName(String name) {
+    protected void setName(String name) {
 	if (name == null) {
 	    throw new NullPointerException("name cannot be null");
 	} else if (name.isEmpty()) {
