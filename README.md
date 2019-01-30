@@ -2,7 +2,7 @@
 
 > I fully expected to find a Constable in the kitchen, waiting to take me up. 
 > But not only was there no Constable there, but no discovery had yet been made of the robbery.
-> --*Great Expectations* by Charles Dickens
+> **--_Great Expectations_ by Charles Dickens**
 
 This class exercise explores how to utilize inheritance in Java to create new classes
 that are directly based on existing ones, with an emphasis on code reuse and design
