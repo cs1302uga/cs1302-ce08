@@ -4,8 +4,8 @@ package cs1302.shapes;
  * An ellipse is a shape comprising of a curve in a plane surrounding two focal points such that 
  * the sum of the distances to the two focal points is constant for every point on the curve. The 
  * line through the focal points is called the major axis, and the line perpendicular to it through
- * the center is called the minor axis. If you halve each of these lengths, then are known as the 
- * semi-major axis and semi-minor axis, respectively.
+ * the center is called the minor axis. If you halve each of these lengths, then they are known as
+ * the semi-major axis and semi-minor axis, respectively.
  * 
  * @see <a href="https://en.wikipedia.org/wiki/Ellipse">Wikipedia: Ellipse</a>
  */
