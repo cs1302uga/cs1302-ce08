@@ -7,8 +7,7 @@ package cs1302.shapes;
  * the center is called the minor axis. If you halve each of these lengths, then are known as the 
  * semi-major axis and semi-minor axis, respectively.
  * 
- * @see https://en.wikipedia.org/wiki/Ellipse
- * @see http://mathworld.wolfram.com/Ellipse.html
+ * @see <a href="https://en.wikipedia.org/wiki/Ellipse">Wikipedia: Ellipse</a>
  */
 public class Ellipse extends Shape {
 
@@ -58,7 +57,9 @@ public class Ellipse extends Shape {
      * Return an approximation of the perimeter, computed using a Ramanujan approximation. As this
      * is an approximation, users of this method should not treat it as an exact perimeter value.
      * 
+     * 
      * @return an approximation of the perimeter
+     * @see <a href="https://www.mathsisfun.com/geometry/ellipse-perimeter.html">Math is Fun: Perimeter of an Ellipse</a>
      */
     @Override
     public double getPerimeter() {
