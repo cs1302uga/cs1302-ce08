@@ -22,7 +22,7 @@ public class Ellipse extends Shape {
      * lengths.
      *
      * @param a the length of the semi-major axis
-     * @param a the length of the semi-minor axis
+     * @param b the length of the semi-minor axis
      */
     public Ellipse(double a, double b) {
 	setName("Ellipse");
