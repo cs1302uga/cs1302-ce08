@@ -98,33 +98,39 @@ command depends on your present working directory), then please note that contex
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
       If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
       in your own words.
-
-1. In `ShapeDriver.java`, remove any declarations/instantiations added in the previous question. Add a 
-   line to test the method calls in the table below given the reference and object types. While exact
-   parameters are not given, you should assume that the method is called correctly. If a method
-   call is invalid for a given reference/object type combination, say why it is invalid. If the method
-   call is valid, give the fully qualified name (FQN) of the implementing class.
-   
-   | Reference Type | Object Type | Method Call| Valid or Invalid? |Explain|
-   |----------------|-------------|------------|-------------------|-------|
-   |Ellipse|Ellipse|getPerimeter()|||
-   |Ellipse|Ellipse|getCircumference()|||
-   |Shape|Circle|getDiameter()|||
-   |Shape|Circle|getName()|||
-   |Shape|Circle|setName()|||
-   |Ellipse|Circle|getSemiMajorAxisLength()|||
-   |Ellipse|Circle|getRadius()|||
-   |Ellipse|Circle|getPerimeter()|||
-   |Shape|Ellipse|getArea()|||
-   
+   1. Delete the line of code before proceeding to the next row.
 
 **CHECKPOINT**
 
-1. 
+1. In your notes, recreate the following table:
 
-1. 1. Make sure you are in the `cs1302-ce08` directory.
-   Use Git to commit your source code changes to your local copy of the exercise repository.
-   If you did not remember how to do this, then revisit your notes for `cs1302-ce06`.
+   | Reference Type | Object Type | Method Call                | Valid? (Guess) | Valid? (Actual) |Explain|
+   |----------------|-------------|----------------------------|----------------|-----------------|-------|
+   | `Ellipse`      | `Ellipse`   | `getPerimeter()`           |||
+   | `Ellipse`      | `Ellipse`   | `getCircumference()`       |||
+   | `Shape`        | `Circle`    | `getDiameter()`            |||
+   | `Shape`        | `Circle`    | `getName()`                |||
+   | `Shape`        | `Circle`    | `setName()`                |||
+   | `Ellipse`      | `Circle`    | `getSemiMajorAxisLength()` |||
+   | `Ellipse`      | `Circle`    | `getRadius()`              |||
+   | `Ellipse`      | `Circle`    | `getPerimeter()`           |||
+   | `Shape`        | `Ellipse`   | `getArea()`                |||
+
+   In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
+   
+   1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
+   1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an 
+      appropriate constructor call and assign it to `obj`.
+   1. On the next line, call the method listed in the **Method Call** column using `obj` as the calling object. 
+      If the method has a return type other than `void`, then simply assign it to a new variable of the appropriate type.
+   1. Make an educated guess as to whether or not the two lines of that you added code will successfully compile. 
+      Note this in the **Valid? (Guess)** column of your table.
+   1. Save the file, and attempt to recompile it. Note whether it compiled in the **Valid? (Actual)** column of your table.
+   1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
+      If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
+      in your own words. If the statement is valid, give the fully qualified name (FQN) of the class containing the implementation
+      for the method.
+   1. Delete the two lines of code before proceeding to the next row.
    
 **CHECKPOINT**
     
