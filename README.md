@@ -74,25 +74,30 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-1. Create a `ShapeDriver.java` program in the `cs1302.driver` package. In the `main` method of 
-   `ShapeDriver.java`, declare reference type variables using the type given in the table below. For
-   each reference variable, assign to it an object of the object type given in the table.  For example, 
-   If the table says `Circle` for the object type and `Ellipse` as the reference type, you would add
-   something like `Circle c = new Ellipse();` making sure to properly call the constructor on the
-   object type.  For each of these lines, write if the line is valid and explain why or why not.
-   Write details for the explanation.
-  
-   | Reference Type | Object Type | Valid or Invalid? | Explain |
-   |----------------|-------------|-------------------|---------|
-   |Shape|Shape|||
-   |Shape|Circle|||
-   |Shape|Ellipse|||
-   |Circle|Shape|||
-   |Circle|Ellipse|||
-   |Circle|Circle|||
-   |Ellipse|Shape|||
-   |Ellipse|Circle|||
-   |Ellipse|Ellipse|||
+1. In your notes, recreate the following table:
+
+   | Reference Type | Object Type | Valid? (Guess) | Valid? (Actual) | Explain |
+   |----------------|-------------|----------------|-----------------|---------|
+   | `Shape`        | `Shape`     |||
+   | `Shape`        | `Circle`    |||
+   | `Shape`        | `Ellipse`   |||
+   | `Circle`       | `Shape`     |||
+   | `Circle`       | `Ellipse`   |||
+   | `Circle`       | `Circle`    |||
+   | `Ellipse`      | `Shape`     |||
+   | `Ellipse`      | `Circle`    |||
+   | `Ellipse`      | `Ellipse`   |||
+
+   Create a `ShapeDriver.java` program in the `cs1302.driver` package. In the `main` method of 
+   `ShapeDriver.java`, do the following steps for each row in the table:
+   
+   1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
+   1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
+   1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
+   1. Save the file, and attempt to recompile it. Note whether it compiled in the **Valid? (Actual)** column of your table.
+   1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
+      If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
+      in your own words.
 
 1. In `ShapeDriver.java`, remove any declarations/instantiations added in the previous question. Add a 
    line to test the method calls in the table below given the reference and object types. While exact
