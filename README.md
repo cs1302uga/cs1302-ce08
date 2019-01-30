@@ -11,7 +11,7 @@ implications. It also revists how to commit and view changes to a local Git repo
 ## Prerequisite Knowledge
 
 * A basic understanding of inheritance in Java.
-* LDC Textbook Ch. ?? (Inheritance)
+* LDC Textbook Ch. 8 (Inheritance)
 
 ## Questions
 
@@ -106,15 +106,15 @@ command depends on your present working directory), then please note that contex
 
    | Reference Type | Object Type | Method Call                | Valid? (Guess) | Valid? (Actual) |Explain|
    |----------------|-------------|----------------------------|----------------|-----------------|-------|
-   | `Ellipse`      | `Ellipse`   | `getPerimeter()`           |||
-   | `Ellipse`      | `Ellipse`   | `getCircumference()`       |||
-   | `Shape`        | `Circle`    | `getDiameter()`            |||
-   | `Shape`        | `Circle`    | `getName()`                |||
-   | `Shape`        | `Circle`    | `setName()`                |||
+   | `Shape`        | `Ellipse`   | `getPerimeter()`           |||
+   | `Ellipse`      | `Circle`    | `getName()`                |||
    | `Ellipse`      | `Circle`    | `getSemiMajorAxisLength()` |||
-   | `Ellipse`      | `Circle`    | `getRadius()`              |||
-   | `Ellipse`      | `Circle`    | `getPerimeter()`           |||
-   | `Shape`        | `Ellipse`   | `getArea()`                |||
+   | `Shape`        | `Ellipse`   | `getSemiMinorAxisLength()` |||
+   | `Shape`        | `Ellipse`   | `setName()`                |||   
+   | `Ellipse`      | `Ellipse`   | `getDiameter()`            |||
+   | `Shape`        | `Circle`    | `getRadius()`              |||
+   | `Ellipse`      | `Circle`    | `getCircumference()`       |||
+   | `Circle`       | `Circle`    | `getPerimeter()`            |||
 
    In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
    
