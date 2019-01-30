@@ -74,16 +74,44 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-1. Create a `ShapeDriver.java` program in the `cs1302.driver` package.
+1. Create a `ShapeDriver.java` program in the `cs1302.driver` package. In the `main` method of 
+   `ShapeDriver.java`, declare reference type variables using the type given in the table below. For
+   each reference variable, assign to it an object of the object type given in the table.  For example, 
+   If the table says `Circle` for the object type and `Ellipse` as the reference type, you would add
+   something like `Circle c = new Ellipse();` making sure to properly call the constructor on the
+   object type.  For each of these lines, write if the line is valid and explain why or why not.
+   Write details for the explanation.
+  
+   | Reference Type | Object Type | Valid or Invalid? | Explain |
+   |----------------|-------------|-------------------|---------|
+   |Shape|Shape|||
+   |Shape|Circle|||
+   |Shape|Ellipse|||
+   |Circle|Shape|||
+   |Circle|Ellipse|||
+   |Circle|Circle|||
+   |Ellipse|Shape|||
+   |Ellipse|Circle|||
+   |Ellipse|Ellipse|||
 
-1. In the `main` method of `ShapeDriver.java`, you should declare reference type variables of 
-
-| Reference Type | Object Type | Method Access | Variable Access |
-| 
-
-1. Make sure you are in the `cs1302-ce08` directory.
-   Use Git to commit your source code changes to your local copy of the exercise repository.
-   If you did not remember how to do this, then revisit your notes for `cs1302-ce06`.
+1. In `ShapeDriver.java`, remove any declarations/instantiations added in the previous question. Add a 
+   line to test the method calls in the table below given the reference and object types. While exact
+   parameters are not given, you should assume that the method is called correctly. If a method
+   call is invalid for a given reference/object type combination, say why it is invalid. If the method
+   call is valid, give the fully qualified name (FQN) of the implementing class.
+   
+   | Reference Type | Object Type | Method Call| Valid or Invalid? |Explain|
+   |----------------|-------------|------------|-------------------|-------|
+   |Ellipse|Ellipse|getPerimeter()|||
+   |Ellipse|Ellipse|getCircumference()|||
+   |Shape|Circle|getDiameter()|||
+   |Shape|Circle|getName()|||
+   |Shape|Circle|setName()|||
+   |Ellipse|Circle|getSemiMajorAxisLength()|||
+   |Ellipse|Circle|getRadius()|||
+   |Ellipse|Circle|getPerimeter()|||
+   |Shape|Ellipse|getArea()|||
+   
 
 **CHECKPOINT**
 
