@@ -14,7 +14,7 @@ public class Circle extends Ellipse {
      *
      * @param radius the radius of 
      */
-    public Circle(int radius) {
+    public Circle(double radius) {
 	/* A circle is the same as an ellipse where the semi-major and semi-minor axis lengths are
 	 * equal.
 	 */

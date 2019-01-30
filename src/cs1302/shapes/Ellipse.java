@@ -57,7 +57,6 @@ public class Ellipse extends Shape {
      * Return an approximation of the perimeter, computed using a Ramanujan approximation. As this
      * is an approximation, users of this method should not treat it as an exact perimeter value.
      * 
-     * 
      * @return an approximation of the perimeter
      * @see <a href="https://www.mathsisfun.com/geometry/ellipse-perimeter.html">Math is Fun: Perimeter of an Ellipse</a>
      */
