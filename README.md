@@ -1,5 +1,9 @@
 # ce08 A Great Inheritance 
 
+> I fully expected to find a Constable in the kitchen, waiting to take me up. 
+> But not only was there no Constable there, but no discovery had yet been made of the robbery.
+> --*Great Expectations* by Charles Dickens
+
 This class exercise explores how to utilize inheritance in Java to create new classes
 that are directly based on existing ones, with an emphasis on code reuse and design
 implications. It also revists how to commit and view changes to a local Git repository.
