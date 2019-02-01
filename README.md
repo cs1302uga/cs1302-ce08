@@ -60,7 +60,7 @@ command depends on your present working directory), then please note that contex
    Write down the commands that you used in the order that you used them.
    
 1. Inspect the source code provided with the exercise. For each of the `.java` files, list in your notes
-   the signature of each method explicitly written in that file.
+   the signature of each method, excluding any constructors, explicitly written in that file.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
