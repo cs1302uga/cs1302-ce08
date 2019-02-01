@@ -50,7 +50,7 @@ command depends on your present working directory), then please note that contex
    |-----------------------|---------------------|----------------------------|------------|
    |-----------------------|---------------------|----------------------------|------------|
 
-   The "Depends On" column should list any Java types under the `cs1302.ce07` package that the file
+   The "Depends On" column should list any Java types under the `cs1302.ce08` package that the file
    is dependent upon. 
    
 1. Make sure you are in the `cs1302-ce08` directory.
@@ -95,9 +95,11 @@ command depends on your present working directory), then please note that contex
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
    1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
    1. Save the file, use commit your change using Git (replace with an appropriate message):
+   
       ```
       $ git commit -am "Some short desription of file changes."
       ```
+      
    1. Attempt to compile `ShapeDriver.java`. Note whether it compiled in the **Valid? (Actual)** column of your table.
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
       If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
