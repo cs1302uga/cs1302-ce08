@@ -94,7 +94,7 @@ command depends on your present working directory), then please note that contex
    1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
    1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
-   1. Save the file, then commit your change using Git (replace with an appropriate message):
+   1. Save the file, then commit your change using Git (replace with an _appropriate_ message):
    
       ```
       $ git commit -am "Some short desription of file changes."
@@ -131,7 +131,13 @@ command depends on your present working directory), then please note that contex
       If the method has a return type other than `void`, then simply assign it to a new variable of the appropriate type.
    1. Make an educated guess as to whether or not the two lines of that you added code will successfully compile. 
       Note this in the **Valid? (Guess)** column of your table.
-   1. Save the file, and attempt to recompile it. Note whether it compiled in the **Valid? (Actual)** column of your table.
+   1. Save the file, then commit your change using Git (replace with an _appropriate_ message):
+   
+      ```
+      $ git commit -am "Some short desription of file changes."
+      ```
+      
+   1. Attempt to compile `ShapeDriver.java`. Note whether it compiled in the **Valid? (Actual)** column of your table.
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
       If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
       in your own words. If the statement is valid, give the fully qualified name (FQN) of the class containing the implementation
