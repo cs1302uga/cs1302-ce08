@@ -31,7 +31,7 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. **[ALL GROUP MEMBERS]**
-   If you did not setup your Git username and email on Nike when workin on `cs1302-ce06`,
+   If you did not setup your Git username and email on Nike when working on `cs1302-ce07`,
    then please revist that exercise and follow the instructions presented there.
 
 1. Change into the `cs1302-ce08` directory that was just created and look around. There should be
@@ -67,8 +67,13 @@ command depends on your present working directory), then please note that contex
    Host the documentation on Nike using `cs1302-ce08-doc` as the name for your symbolic link. Write
    the full URL of your API documentation website in your notes.
    
-1. For each of the classed listed on the API documentation website, list in your notes
-   the signature of each method given in the .java files that are **not** included in the API documentation website.
+1. On the API documentation website, go to the webpage for the `Circle` class. In your notes, copy down the
+   inheritance hierarchy listed near the top of the page under the text **Class Circle**. You may list the 
+   simple class names for classes in the `cs1302.shapes` package. Please write down the FQN for any classes
+   in other packages. 
+
+For each of the classes listed on the API documentation website, list in your notes
+   the signature of each method given in the `.java` files that are **not** included in the API documentation website.
    
 1. Why are some methods in the source code not listed on the API documentation website?
 
@@ -94,13 +99,8 @@ command depends on your present working directory), then please note that contex
    1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
    1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
-   1. Save the file, then commit your change using Git (replace with an _appropriate_ message):
-   
-      ```
-      $ git commit -am "Some short desription of file changes."
-      ```
-      
-   1. Attempt to compile `ShapeDriver.java`. Note whether it compiled in the **Valid? (Actual)** column of your table.
+   1. Save the file, then attempt to compile `ShapeDriver.java`. 
+      Note whether it compiled in the **Valid? (Actual)** column of your table.
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
       If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
       in your own words.
@@ -120,7 +120,7 @@ command depends on your present working directory), then please note that contex
    | `Ellipse`      | `Ellipse`   | `getDiameter()`            |||
    | `Shape`        | `Circle`    | `getRadius()`              |||
    | `Ellipse`      | `Circle`    | `getCircumference()`       |||
-   | `Circle`       | `Circle`    | `getPerimeter()`            |||
+   | `Circle`       | `Circle`    | `getPerimeter()`           |||
 
    In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
    
@@ -131,13 +131,8 @@ command depends on your present working directory), then please note that contex
       If the method has a return type other than `void`, then simply assign it to a new variable of the appropriate type.
    1. Make an educated guess as to whether or not the two lines of that you added code will successfully compile. 
       Note this in the **Valid? (Guess)** column of your table.
-   1. Save the file, then commit your change using Git (replace with an _appropriate_ message):
-   
-      ```
-      $ git commit -am "Some short desription of file changes."
-      ```
-      
-   1. Attempt to compile `ShapeDriver.java`. Note whether it compiled in the **Valid? (Actual)** column of your table.
+   1. 1. Save the file, then attempt to compile `ShapeDriver.java`. 
+      Note whether it compiled in the **Valid? (Actual)** column of your table.
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
       If the statement is invalid, do not simply copy the error message provided by the compiler--do your best to explain it
       in your own words. If the statement is valid, give the fully qualified name (FQN) of the class containing the implementation
