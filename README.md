@@ -72,9 +72,6 @@ command depends on your present working directory), then please note that contex
    simple class names for classes in the `cs1302.shapes` package. Please write down the FQN for any classes
    in other packages. 
 
-For each of the classes listed on the API documentation website, list in your notes
-   the signature of each method given in the `.java` files that are **not** included in the API documentation website.
-   
 1. Why are some methods in the source code not listed on the API documentation website?
 
 **CHECKPOINT**
