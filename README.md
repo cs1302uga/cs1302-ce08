@@ -94,7 +94,7 @@ command depends on your present working directory), then please note that contex
    1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
    1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
-   1. Save the file, use commit your change using Git (replace with an appropriate message):
+   1. Save the file, then commit your change using Git (replace with an appropriate message):
    
       ```
       $ git commit -am "Some short desription of file changes."
