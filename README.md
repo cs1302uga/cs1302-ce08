@@ -32,7 +32,7 @@ command depends on your present working directory), then please note that contex
 
 1. **[ALL GROUP MEMBERS]**
    If you did not setup your Git username and email on Nike when workin on `cs1302-ce06`,
-   the please revist that exercise and follow the instructions presented there.
+   then please revist that exercise and follow the instructions presented there.
 
 1. Change into the `cs1302-ce08` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
