@@ -143,8 +143,8 @@ command depends on your present working directory), then please note that contex
       beginning of Chapter 4 seen at the top of this exercise. In those two sentences, Dickens provides
       the framework for the entire narrative:
       
-      > I fully expected __GREAT EXPECTATION__. 
-      > But not only was there no __GREAT EXPECTATION__, but no __DISCUSSION OCCURED RELATED TO WHY I HAD THE GREAT EXPECTATION__.
+      > I fully expected __SOME GREAT EXPECTATION__. 
+      > But not only was there no __EXPECTED SOMETHING__, but no __REAL PLOT DEVELOPMENT OCCURED RELATED TO WHY I EXPECTED IT__.
    
    1. Also, the provenance of Pip's inheritance is a core question in the book's narrative, up until
       the very end. Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. 
