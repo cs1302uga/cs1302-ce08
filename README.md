@@ -72,7 +72,8 @@ command depends on your present working directory), then please note that contex
    simple class names for classes in the `cs1302.shapes` package. Please write down the FQN for any classes
    in other packages. 
 
-1. Why are some methods in the source code not listed on the API documentation website?
+1. Why does the list of methods in the source code not differ from those listed on the API documentation 
+   website?
 
 **CHECKPOINT**
 
