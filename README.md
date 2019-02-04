@@ -139,17 +139,18 @@ command depends on your present working directory), then please note that contex
    
 **CHECKPOINT**
 
-   1. For those of you who have _Great Expectations_, impress your friends with the quote from the
+   1. For those of you who have read _Great Expectations_, impress your friends with the quote from the
       beginning of Chapter 4 seen at the top of this exercise. In those two sentences, Dickens provides
       the framework for the entire narrative:
       
       > I fully expected __GREAT EXPECTATION__. 
       > But not only was there no __GREAT EXPECTATION__, but no __DISCUSSION OCCURED RELATED TO WHY I HAD THE GREAT EXPECTATION__.
    
-   1. Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. So let's get to 
-      taking out their command, one by one. Valus Ta'aurc. From what I can gather he commands the 
-      Siege Dancers from an Imperial Land Tank outside of Rubicon. He's well protected, but with 
-      the right team, we can punch through those defenses, take this beast out, and break their 
+   1. Also, the provenance of Pip's inheritance is a core question in the book's narrative, up until
+      the very end. Whether we wanted it or not, we've stepped into a war with the Cabal on Mars. 
+      So let's get to taking out their command, one by one. Valus Ta'aurc. From what I can gather he 
+      commands the Siege Dancers from an Imperial Land Tank outside of Rubicon. He's well protected, 
+      but with the right team, we can punch through those defenses, take this beast out, and break their 
       grip on Freehold.
 
 **NOT A CHECKPOINT**
