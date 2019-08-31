@@ -11,7 +11,14 @@ implications.
 ## Prerequisite Knowledge
 
 * A basic understanding of inheritance in Java.
-* LDC Textbook Ch. 8 (Inheritance)
+* CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
+
+## Course-Specific Learning Outcomes -- FINISH UPDATING
+
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+* **L04.b:** Utilize interface-based polymorphism in a software solution.
 
 ## Questions
 
@@ -138,7 +145,12 @@ command depends on your present working directory), then please note that contex
    1. Delete the two lines of code before proceeding to the next row.
    
 **CHECKPOINT**
-
+   1. *Thought exercise*: Remember the `Drivable` interface in the previous class exercise. In that example,
+      you wrote two or three classes that implemented `Drivable`. In those classes, the `speedUp` and `slowDown`
+      methods were very similar. You may have even had similar instance variables. Spend a few minutes thinking
+      about whether or not inheritance could have been used to simplify the code and to reduce redundancy. How 
+      exactly would this work?
+      
    1. For those of you who have read _Great Expectations_, impress your friends with the quote from the
       beginning of Chapter 4 seen at the top of this exercise. In those two sentences, Dickens provides
       the framework for the entire narrative:
