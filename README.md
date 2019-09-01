@@ -18,7 +18,8 @@ implications.
 * **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
 set of requirements.
 * **LO3.c:** Generate user-facing API documentation for a software solution.
-* **L04.b:** Utilize interface-based polymorphism in a software solution.
+* **LO4.c:** (Partial) Design, create and use inheritance relationships in a software solution.
+* **LO4.d:** Utilize inheritance-based polymorphism in a software solution.
 
 ## Questions
 
@@ -51,13 +52,13 @@ command depends on your present working directory), then please note that contex
    
    For each Java file under the `src` subdirectory, fill out a table similar to the following:
    
-   | Name of the Java file | Interface or Class? | Fully Qualified Name (FQN) | Depends On |
-   |-----------------------|---------------------|----------------------------|------------|
-   |-----------------------|---------------------|----------------------------|------------|
-   |-----------------------|---------------------|----------------------------|------------|
-   |-----------------------|---------------------|----------------------------|------------|
+   | Name of the Java file | Abstract or Concrete Class? | Fully Qualified Name (FQN) | Depends On |
+   |-----------------------|-----------------------------|----------------------------|------------|
+   |-----------------------|-----------------------------|----------------------------|------------|
+   |-----------------------|-----------------------------|----------------------------|------------|
+   |-----------------------|-----------------------------|----------------------------|------------|
 
-   The "Depends On" column should list any Java types under the `cs1302.ce08` package that the file
+   The "Depends On" column should list any Java types under the `cs1302.shapes` package that the file
    is dependent upon. 
    
 1. Make sure you are in the `cs1302-ce08` directory.
@@ -67,8 +68,14 @@ command depends on your present working directory), then please note that contex
    Write down the commands that you used in the order that you used them.
    
 1. Inspect the source code provided with the exercise. For each of the `.java` files, list in your notes
-   the signature of each method, excluding any constructors, explicitly written in that file.
-
+   the signature of each method, excluding any constructors. Make sure to include abstract methods.
+   
+   For readability, you might find it helpful to build a table similar to the one below in your notes:
+   
+   |                       | `Shape.java`        | `Ellipse.java`        | `Circle.java`        |
+   |-----------------------|---------------------|-----------------------|----------------------|
+   | Method signatures     |||
+   
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
    Host the documentation on Nike using `cs1302-ce08-doc` as the name for your symbolic link. Write
@@ -79,8 +86,14 @@ command depends on your present working directory), then please note that contex
    simple class names for classes in the `cs1302.shapes` package. Please write down the FQN for any classes
    in other packages. 
 
-1. Does the list of methods in the source code differ from those listed on the API documentation 
-   website? If so, in what way? Why? Be specific. 
+1. Answer the following short answer questions in your notes:
+   1. How many methods does `Circle` inherit from `Ellipse`? Why isn't `getPerimeter` listed as being inherited
+      from `Ellipse`?
+   1. How many methods does `Circle` inherit from `Shape`? Why aren't all methods in `Shape` listed as being
+      inherited from `Shape`?
+   1. How many instance variables are contained in an object of type `Ellipse`? How many are directly accessible?
+   1. How many instance variables are contained in an object of type `Circle`? How many are directly accessible?
+   1. The `setName` method in `Shape` is declared to be `protected`. Explain what that means.
 
 **CHECKPOINT**
 
