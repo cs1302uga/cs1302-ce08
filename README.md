@@ -93,7 +93,8 @@ command depends on your present working directory), then please note that contex
       inherited from `Shape`?
    1. How many instance variables are contained in an object of type `Ellipse`? How many are directly accessible?
    1. How many instance variables are contained in an object of type `Circle`? How many are directly accessible?
-   1. The `setName` method in `Shape` is declared to be `protected`. Explain what that means.
+   1. The `setName` method in `Shape` is declared to be `protected`. Explain how the `protected` access modifier
+      differs from `public` and `private`.
 
 **CHECKPOINT**
 
@@ -115,8 +116,12 @@ command depends on your present working directory), then please note that contex
    `cs1302.shapes` package. In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
    
    1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
-   1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate constructor call and assign it to `obj`.
-   1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** column of your table.
+   1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate 
+      constructor call and assign it to `obj`.
+      The first declaration and instantiation would look like this:
+      `Shape obj = new Shape();`
+   1. Make an educated guess as to whether or not the line will successfully compile. Note this in the **Valid? (Guess)** 
+      column of your table.
    1. Save the file, then attempt to compile `ShapeDriver.java`. 
       Note whether it compiled in the **Valid? (Actual)** column of your table.
    1. Now for the most important part! In the **Explain** column of your table, explain why the statement is valid or invalid.
