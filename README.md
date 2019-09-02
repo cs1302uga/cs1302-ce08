@@ -13,7 +13,7 @@ implications.
 * A basic understanding of inheritance in Java.
 * CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
 
-## Course-Specific Learning Outcomes -- FINISH UPDATING
+## Course-Specific Learning Outcomes
 
 * **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
 set of requirements.
