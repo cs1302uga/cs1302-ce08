@@ -91,7 +91,7 @@ command depends on your present working directory), then please note that contex
 1. Answer the following short answer questions in your notes:
    1. How many methods does `Circle` inherit from `Ellipse`? Why isn't `getPerimeter` listed as being inherited
       from `Ellipse`?
-   1. How many methods does `Circle` inherit from `Shape`? Why aren't all methods in `Shape` listed as being
+   1. How many methods does `Circle` inherit from `Shape`? Why aren't all methods in `Circle` listed as being
       inherited from `Shape`?
    1. How many instance variables are contained in an object of type `Ellipse`? How many are directly accessible?
    1. How many instance variables are contained in an object of type `Circle`? How many are directly accessible?
