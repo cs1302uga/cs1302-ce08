@@ -85,8 +85,8 @@ command depends on your present working directory), then please note that contex
    
 1. On the API documentation website, go to the webpage for the `Circle` class. In your notes, copy down the
    inheritance hierarchy listed near the top of the page under the text **Class Circle**. You may list the 
-   simple class names for classes in the `cs1302.shapes` package. Please write down the FQN for any classes
-   in other packages. 
+   simple class names for classes in the `cs1302.shapes` package. **Please write down the FQN for any classes
+   in other packages.**
 
 1. Answer the following short answer questions in your notes:
    1. How many methods does `Circle` inherit from `Ellipse`? Why isn't `getPerimeter` listed as being inherited
