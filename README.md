@@ -1,5 +1,7 @@
 # ce08 A Great Inheritance 
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > I fully expected to find a Constable in the kitchen, waiting to take me up. 
 > But not only was there no Constable there, but no discovery had yet been made of the robbery.
 > **--_Great Expectations_ by Charles Dickens**
