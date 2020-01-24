@@ -79,10 +79,10 @@ command depends on your present working directory), then please note that contex
    |-----------------------|---------------------|-----------------------|----------------------|
    | Method signatures     |||
    
-1. Generate the API documentation website for all of the code in the `cs1302` package
-   into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce08-doc` as the name for your symbolic link. Write
-   the full URL of your API documentation website in your notes.
+1. Make sure that all Java files pass the `checkstyle` audit. Then, generate the API documentation website 
+   for all of the code in the `cs1302` package into the `doc` directory. You may need to create the `doc` 
+   directory if it does not already exist. Host the documentation on Nike using `cs1302-ce08-doc` as the 
+   name for your symbolic link. Write the full URL of your API documentation website in your notes.
    
 1. On the API documentation website, go to the webpage for the `Circle` class. In your notes, copy down the
    inheritance hierarchy listed near the top of the page under the text **Class Circle**. You may list the 
