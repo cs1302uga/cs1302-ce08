@@ -1,5 +1,6 @@
 # ce08 A Great Inheritance 
 
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 > I fully expected to find a Constable in the kitchen, waiting to take me up. 
@@ -42,7 +43,7 @@ command depends on your present working directory), then please note that contex
 
 1. **[ALL GROUP MEMBERS]**
    If you did not setup your Git username and email on Nike when working on `cs1302-ce07`,
-   then please revist that exercise and follow the instructions presented there.
+   then please revist that exercise and follow the instructions presented [here](https://github.com/cs1302uga/cs1302-ce07#getting-started).
 
 1. Change into the `cs1302-ce08` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
