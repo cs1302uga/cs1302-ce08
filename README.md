@@ -1,7 +1,7 @@
 # ce08 A Great Inheritance 
 
-<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
-![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
 
 > I fully expected to find a Constable in the kitchen, waiting to take me up. 
 > But not only was there no Constable there, but no discovery had yet been made of the robbery.
