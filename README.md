@@ -103,7 +103,7 @@ command depends on your present working directory), then please note that contex
 
 1. In your notes, recreate the following table:
 
-   | Reference Type | Object Type | Valid? (Guess) | Valid? (Actual) | Explain |
+   | Variable Type  | Object Type | Valid? (Guess) | Valid? (Actual) | Explain |
    |----------------|-------------|----------------|-----------------|---------|
    | `Shape`        | `Shape`     |||
    | `Shape`        | `Circle`    |||
@@ -118,7 +118,7 @@ command depends on your present working directory), then please note that contex
    Create a `ShapeDriver.java` program in the `cs1302.driver` package. Don't forget to import the classes from the 
    `cs1302.shapes` package. In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
    
-   1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
+   1. Declare a reference variable called `obj` with the type denoted in the **Variable Type** column.
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an appropriate 
       constructor call and assign it to `obj`.
       The first declaration and instantiation would look like this:
@@ -136,7 +136,7 @@ command depends on your present working directory), then please note that contex
 
 1. In your notes, recreate the following table:
 
-   | Reference Type | Object Type | Method Call                | Valid? (Guess) | Valid? (Actual) |Explain|
+   | Variable Type  | Object Type | Method Call                | Valid? (Guess) | Valid? (Actual) |Explain|
    |----------------|-------------|----------------------------|----------------|-----------------|-------|
    | `Shape`        | `Ellipse`   | `getPerimeter()`           |||
    | `Ellipse`      | `Circle`    | `getName()`                |||
@@ -150,7 +150,7 @@ command depends on your present working directory), then please note that contex
 
    In the `main` method of `ShapeDriver.java`, do the following steps for each row in the table:
    
-   1. Declare a reference variable called `obj` with the type denoted in the **Reference Type** column.
+   1. Declare a reference variable called `obj` with the type denoted in the **Variable Type** column.
    1. On the same line, create an object of the type denoted in the **Object Type** column using `new` and an 
       appropriate constructor call and assign it to `obj`.
    1. On the next line, call the method listed in the **Method Call** column using `obj` as the calling object. 
