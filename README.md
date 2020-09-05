@@ -1,7 +1,6 @@
 # ce08 A Great Inheritance 
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
-![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 > I fully expected to find a Constable in the kitchen, waiting to take me up. 
 > But not only was there no Constable there, but no discovery had yet been made of the robbery.
@@ -14,7 +13,7 @@ implications.
 ## Prerequisite Knowledge
 
 * A basic understanding of inheritance in Java.
-* CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
+* [CSCI 1302 Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
 
 ## Course-Specific Learning Outcomes
 
@@ -27,22 +26,24 @@ set of requirements.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce08`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce08`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce08.git
    ```
 
 1. **[ALL GROUP MEMBERS]**
-   If you did not setup your Git username and email on Nike when working on `cs1302-ce07`,
+   If you did not setup your Git username and email on Odin when working on `cs1302-ce07`,
    then please revist that exercise and follow the instructions presented [here](https://github.com/cs1302uga/cs1302-ce07#getting-started).
 
 1. Change into the `cs1302-ce08` directory that was just created and look around. There should be
@@ -79,10 +80,11 @@ command depends on your present working directory), then please note that contex
    |-----------------------|---------------------|-----------------------|----------------------|
    | Method signatures     |||
    
-1. Make sure that all Java files pass the `checkstyle` audit. Then, generate the API documentation website 
-   for all of the code in the `cs1302` package into the `doc` directory. You may need to create the `doc` 
-   directory if it does not already exist. Host the documentation on Nike using `cs1302-ce08-doc` as the 
-   name for your symbolic link. Write the full URL of your API documentation website in your notes.
+1. Make sure that all Java files pass the `checkstyle` audit by using the `check1302` command. Then, 
+   generate the API documentation website for all of the code in the `cs1302` package into the `doc` 
+   directory. You may need to create the `doc` directory if it does not already exist. Host the 
+   documentation on Odin using `cs1302-ce08-doc` as the name for your symbolic link. Write the full 
+   URL of your API documentation website in your notes.
    
 1. On the API documentation website, go to the webpage for the `Circle` class. In your notes, copy down the
    inheritance hierarchy listed near the top of the page under the text **Class Circle**. You may list the 
@@ -99,7 +101,13 @@ command depends on your present working directory), then please note that contex
    1. The `setName` method in `Shape` is declared to be `protected`. Explain how the `protected` access modifier
       differs from `public` and `private`.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. In your notes, recreate the following table:
 
@@ -165,13 +173,70 @@ command depends on your present working directory), then please note that contex
       for the method.
    1. Delete the two lines of code before proceeding to the next row.
    
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
+
    1. *Thought exercise*: Remember the `Drivable` interface in the previous class exercise. In that example,
       you wrote two or three classes that implemented `Drivable`. In those classes, the `speedUp` and `slowDown`
       methods were very similar. You may have even had similar instance variables. Spend a few minutes thinking
       about whether or not inheritance could have been used to simplify the code and to reduce redundancy. How 
       exactly would this work?
       
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce07`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce06`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce07 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
+
+<hr/>
+
+**Bonus Fun:**
+   
    1. For those of you who have read _Great Expectations_, impress your friends with the quote from the
       beginning of Chapter 4 seen at the top of this exercise. In those two sentences, Dickens provides
       the framework for the entire narrative:
