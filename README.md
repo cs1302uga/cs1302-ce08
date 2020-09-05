@@ -140,7 +140,13 @@ command depends on your present working directory), then please note that contex
       in your own words.
    1. Delete the line of code before proceeding to the next row.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
 
 1. In your notes, recreate the following table:
 
@@ -175,11 +181,11 @@ command depends on your present working directory), then please note that contex
    
 <hr/>
 
-![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
 
 <hr/>
 
-### Checkpoint 3 Steps
+### Checkpoint 4 Steps
 
    1. *Thought exercise*: Remember the `Drivable` interface in the previous class exercise. In that example,
       you wrote two or three classes that implemented `Drivable`. In those classes, the `speedUp` and `slowDown`
@@ -189,7 +195,7 @@ command depends on your present working directory), then please note that contex
       
 <hr/>
 
-![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-4-success?style=for-the-badge)
 
 <hr/>
 
